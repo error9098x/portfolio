@@ -43,9 +43,11 @@ export default function Header() {
           <div className="hidden md:flex space-x-6">
             <NavLink href="#about">About</NavLink>
             <NavLink href="#experience">Experience</NavLink>
+            <NavLink href="#publications">Publications</NavLink>
             <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#awards">Awards</NavLink>
+            <NavLink href="#volunteer">Volunteer</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </div>
           <button className="md:hidden text-cyan-400" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
@@ -56,9 +58,11 @@ export default function Header() {
           <div className="md:hidden mt-4 space-y-4 pb-4">
             <NavLink href="#about">About</NavLink>
             <NavLink href="#experience">Experience</NavLink>
+            <NavLink href="#publications">Publications</NavLink>
             <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#awards">Awards</NavLink>
+            <NavLink href="#volunteer">Volunteer</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </div>
         )}
