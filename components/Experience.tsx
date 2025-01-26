@@ -11,7 +11,7 @@ export default function Experience() {
       company: "GSOC UC Open Source Program Office",
       date: "May 2024 - August 2024",
       description:
-        "Developed a chat assistant for OpenROAD, curated datasets, and collaborated with research teams at NYU and ASU.",
+        " Developed a chat assistant for OpenROAD, curated datasets, and collaborated with research teams at NYU and ASU.",
     },
     {
       title: "CyberSecurity Intern",
