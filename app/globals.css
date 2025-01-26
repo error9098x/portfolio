@@ -17,6 +17,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .hover-glow {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .hover-glow:hover {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+  }
 }
 
 /* Custom styles */
