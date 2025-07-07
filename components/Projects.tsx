@@ -3,6 +3,18 @@ import { ExternalLink, Github, FileText, Mail } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
+      title: "SentryAgent: AI-Driven Multi-Agent Threat Intelligence Platform",
+      description:
+        "A comprehensive security intelligence system leveraging autonomous AI agents to monitor, analyze, and respond to cybersecurity threats in real-time through coordinated threat detection workflows.",
+      tech: "Next.js, TypeScript, React, ThreatFox API, NVD API, IP Geolocation Services",
+      github: "https://github.com/error9098x/Threal-Intelligence",
+      details: [
+        "Real-time CVE Monitoring - Tracks vulnerabilities with automated severity assessment and intelligent prioritization using AI agents",
+        "Multi-Agent Architecture - Specialized autonomous agents for IP threat analysis, IOC collection, and threat correlation working in coordination",
+        "Resilient Intelligence Pipeline - Built-in caching, fallback mechanisms, and real-time data processing for uninterrupted threat monitoring",
+      ],
+    },
+    {
       title: "AI-Powered Real-Time DNS Threat Detection Using LLM",
       description:
         "Developed a real-time DNS monitoring system with AI-powered threat detection, including domain risk assessment, rate limiting, and suspicious pattern detection.",
