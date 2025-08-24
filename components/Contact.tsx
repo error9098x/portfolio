@@ -51,13 +51,7 @@ export default function Contact() {
             <ul className="space-y-4">
               <li className="flex items-center">
                 <Mail className="mr-2 text-cyan-400" />
-                <a href="mailto:procodecavi@gmail.com" className="hover:text-cyan-300">
-                  procodecavi@gmail.com
-                </a>
-              </li>
-              <li className="flex items-center">
-                <Phone className="mr-2 text-cyan-400" />
-                <span>+91-7017-863-452</span>
+                <span>procodecavi[at]gmail[dot]com</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="mr-2 text-cyan-400" />
